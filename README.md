@@ -40,22 +40,23 @@ Täisfunktsionaalne veebirakendus, mis võimaldab kasutajatel registreeruda, sis
 
 1. Klooni
 
-git clone https://github.com/markmattik/Article.git
-cd Article
+  git clone https://github.com/markmattik/Article.git
+  
+  cd Article
 
 2. Install server
 
-cd article-management
-npm install
+  cd article-management
+  npm install
 
 3. Andmebaasi seadistamine
 
-npx sequelize-cli db:migrate
-npx sequelize-cli db:seed:all
+  npx sequelize-cli db:migrate
+  npx sequelize-cli db:seed:all
 
 4. Backend start
 
-npm start
+  npm start
 
 
 5. Frontend start
