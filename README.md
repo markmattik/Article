@@ -40,8 +40,8 @@ Täisfunktsionaalne veebirakendus, mis võimaldab kasutajatel registreeruda, sis
 
 1. Klooni
 
-git clone 
-cd <repository-folder>
+git clone https://github.com/markmattik/Article.git
+cd Article
 
 2. Install server
 
